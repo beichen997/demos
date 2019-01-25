@@ -1,0 +1,35 @@
+.title{
+  padding:20px;
+  font-size:20px;
+  color:#333;
+  text-align: center;
+  background: #fcfcfc;
+}
+.login{
+  position:fixed;
+  width:100%;
+  height:100%;
+  
+}
+.loginlist{
+  position:relative;
+  width:100%;
+  height:100%;
+  background-color: #fff;
+}
+.logindelist{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  width:80%;
+  /* width:50%;
+  height:30%;
+  padding:20px; */
+  text-align:center;
+  color:#fff;
+  transform: translate(-50%, -50%);
+}
+.demoTitle:before,
+.demoTitle:after {
+  border-bottom: none;
+}
